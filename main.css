@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #202733;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 130px;
+}
+
+.card {
+    width: 540px;
+    height: 332px;
+    border-radius: 15px;
+    background: #313A48;
+    box-shadow: 30px 50px 80px 0px #0000001A;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-headline {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 4.09px;
+    text-align: center;
+    color: #53FFAA;
+    margin-bottom: 24px;
+    margin-top: 48px;
+}
+
+.card-text {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #CEE3E9;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+}
+
+.card-line {
+    width: 196px;
+    height: 1px;
+    background: #4F5D74;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.card-rout{
+    width: 6px;
+    height: 16px;
+    border-radius: 3px;
+    background: #CEE3E9;
+    margin-left: 8px;
+}
+.card-btn{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #53FFAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: 430px;
+}
+.card-btn:hover {
+    box-shadow: 0px 0px 40px 0px #53FFAA;
+}
